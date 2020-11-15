@@ -1,0 +1,72 @@
+body {padding: 2em;}
+
+.headerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: orangered;
+    font-weight: bold;
+    padding: 10px;
+}
+
+form{
+    margin-top: 50px;
+}
+
+div {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label, input, button {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+label {
+    text-align: right;
+    width: 30%;
+    margin-right: 2%;
+}
+
+input {
+    flex: auto;
+}
+
+button{
+    
+}
+
+.footerContainer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: centre;
+    background: navajowhite;
+    font-weight: bold;
+    padding: 10px;
+}
+.mainCointainer{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.mainContentItem{
+    text-align: left;
+    background: deepskyblue;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+.sideBarLeftItem{ background: goldenrod;}
+.sideBarRightItem{background: hotpink;}
+
+.sideBarItem {flex: 1 0 0 ; border: 0px solid gray}
+.mainContentItem{flex: 3 0px}
+.sideBarLeftItem {order: 1;}
+.mainContentItem { order: 2;}
+.sideBarRightItem{order:3;}
