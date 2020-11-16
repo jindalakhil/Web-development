@@ -1,0 +1,85 @@
+<!doctype html>
+<title>Example</title>
+<style>
+  * {
+   box-sizing: border-box;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+  .card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+  .card:nth-child(1) {
+    width: 420px;
+  }
+</style>
+
+<main class="cards">
+  <article class="card">
+    <img src="../assets/football.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Football</h3>
+      <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football normally means the form of football that is the most popular where the word is used.</p>
+      <button>Read More</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/golf.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Golf</h3>
+      <p>Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible</p>
+      <button>Read More</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/hockey.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Hockey</h3>
+      <p>Hockey is a sport in which two teams play against each other by trying to manoeuvre a ball or a puck into the opponent's goal using a hockey stick. There are many types of hockey such as bandy, field hockey, ice hockey and rink hockey.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/rugby.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Rugby</h3>
+      <p>Rugby union, widely known simply as rugby, is a full-contact team sport that originated in England in the first half of the 19th century. One of the two codes of rugby football, it is based on running with the ball in hand</p>
+      <button>Read More</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/cricket.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Cricket</h3>
+      <p>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a wicket at each end, each comprising two bails balanced on three stumps</p>
+      <button>Read More</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/tennis.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Tennis</h3>
+      <p>Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each. Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court.</p>
+      <button>Read More</button>
+    </div>
+  </article>
+</main>
